@@ -1,0 +1,21 @@
+Source-Makefile: package/ngrokc/Makefile
+Package: ngrokc
+Submenu: Web Servers/Proxies
+Version: 20160829-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libopenssl +libstdcpp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: Secure tunnels to localhost(C++ port)
+Maintainer: 
+Source: ngrokc-20160829.tar.bz2
+Type: ipkg
+Description: Secure tunnels to localhost(C++ port)
+https://github.com/dosgo/ngrok-c
+
+@@
+
+

@@ -1,0 +1,8 @@
+Package: ngrokc
+Version: 20160829-1
+Depends: libc, libpthread, libopenssl, libstdcpp
+Source: package/ngrokc
+Section: net
+Architecture: mips_24kc
+Installed-Size: 22573
+Description:  Secure tunnels to localhost(C++ port)

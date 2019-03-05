@@ -1,0 +1,7 @@
+conftest.c: In function 'main':
+conftest.c:40:16: warning: unused variable 'y' [-Wunused-variable]
+ int * volatile y;
+                ^
+conftest.c:39:14: warning: unused variable 'x' [-Wunused-variable]
+ volatile int x;
+              ^

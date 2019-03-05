@@ -1,0 +1,5 @@
+conftest.c: In function 'main':
+conftest.c:166:9: warning: null argument where non-null required (argument 1) [-Wnonnull]
+         if(0 != strcasecmp(0, 0))
+         ^
+conftest.c:166:9: warning: null argument where non-null required (argument 2) [-Wnonnull]

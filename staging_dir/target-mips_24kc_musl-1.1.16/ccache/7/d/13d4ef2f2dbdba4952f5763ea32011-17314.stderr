@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:40:16: warning: statement with no effect [-Wunused-value]
+ struct tm *tp; tp->tm_sec;
+                ^

@@ -1,0 +1,20 @@
+Source-Makefile: package/luci-app-ngrokc/Makefile
+Package: luci-app-ngrokc
+Submenu: Luci
+Version: 1.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +ngrokc
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: Network
+Repository: base
+Title: LuCI support for ngrokc.
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI support for ngrokc.
+
+@@
+
+

@@ -1,0 +1,14 @@
+autossh
+linux
+luci-app-ngrokc
+ngrokc
+openwrt-luci-app-autossh
+shadowsocks-libev
+toolchain
+feeds/base/mbedtls
+feeds/base/openssl
+feeds/base/zlib
+feeds/packages/libcares
+feeds/packages/libev
+feeds/packages/libsodium
+feeds/packages/pcre

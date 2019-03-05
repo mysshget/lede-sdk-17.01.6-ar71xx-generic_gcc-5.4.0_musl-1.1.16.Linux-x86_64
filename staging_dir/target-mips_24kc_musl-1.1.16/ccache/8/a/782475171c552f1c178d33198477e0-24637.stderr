@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:167:9: warning: null argument where non-null required (argument 1) [-Wnonnull]
+         if(0 != strdup(0))
+         ^

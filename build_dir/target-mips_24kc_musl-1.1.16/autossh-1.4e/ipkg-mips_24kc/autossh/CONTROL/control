@@ -1,0 +1,8 @@
+Package: autossh
+Version: 1.4e-4
+Depends: libc
+Source: package/autossh
+Section: net
+Architecture: mips_24kc
+Installed-Size: 10426
+Description:  Autossh client

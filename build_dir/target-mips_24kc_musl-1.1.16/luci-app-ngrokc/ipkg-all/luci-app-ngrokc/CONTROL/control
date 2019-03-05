@@ -1,0 +1,8 @@
+Package: luci-app-ngrokc
+Version: 1.0-1
+Depends: libc, ngrokc
+Source: package/luci-app-ngrokc
+Section: opt
+Architecture: all
+Installed-Size: 5527
+Description:  LuCI support for ngrokc.

@@ -1,0 +1,19 @@
+conftest.c: In function 'main':
+conftest.c:60:17: warning: unused variable 's' [-Wunused-variable]
+     char const *s = 0 ? (char *) 0 : (char const *) 0;
+                 ^
+conftest.c:80:15: warning: unused variable 'foo' [-Wunused-variable]
+     const int foo = 10;
+               ^
+conftest.c:47:29: warning: unused variable 'zero' [-Wunused-variable]
+   static struct point const zero = {0,0};
+                             ^
+conftest.c:41:17: warning: unused variable 'x' [-Wunused-variable]
+   const charset x;
+                 ^
+conftest.c:62:7: warning: 't' is used uninitialized in this function [-Wuninitialized]
+     *t++ = 0;
+       ^
+conftest.c:77:23: warning: 'b' is used uninitialized in this function [-Wuninitialized]
+     struct s *b; b->j = 5;
+                       ^

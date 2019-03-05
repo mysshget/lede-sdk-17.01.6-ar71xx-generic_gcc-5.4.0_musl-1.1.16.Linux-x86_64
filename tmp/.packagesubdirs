@@ -1,0 +1,14 @@
+Package/autossh/subdir = base
+Package/libcares/subdir = packages
+Package/libev/subdir = packages
+Package/libmbedtls/subdir = base
+Package/libopenssl/subdir = base
+Package/libpcre/subdir = packages
+Package/libsodium/subdir = packages
+Package/luci-app-ngrokc/subdir = base
+Package/ngrokc/subdir = base
+Package/openssl-util/subdir = base
+Package/shadowsocks-libev/subdir = base
+Package/shadowsocks-libev-server/subdir = base
+Package/zlib/subdir = base
+Package/zlib-dev/subdir = base
